@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/repositories/
+    - /bin/cp index.ejs $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
